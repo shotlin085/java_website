@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlgoVis - The Premier Algorithm Visualizer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <!-- Welcome Modal Pop-up -->
+    <div id="welcomeModal" class="modal-overlay">
+        <div class="modal-content glass-panel">
+            <h2>Welcome to AlgoVis</h2>
+            <p>Experience algorithms in real-time with stunning visualizations.</p>
+            <button id="startBtn" class="btn primary-btn">Explore Now</button>
+        </div>
+    </div>
+
+    <nav class="navbar glass-panel">
+        <div class="logo">
+            <span class="highlight">Algo</span>Vis
+        </div>
+        <div class="controls">
+            <button id="generateArray" class="btn secondary-btn">Generate Array</button>
+            <button id="sortBtn" class="btn primary-btn">Start Sorting</button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <header class="hero">
+            <h1>Watch Logic Come to Life</h1>
+            <p>A beautifully crafted visualization of the Bubble Sort algorithm.</p>
+        </header>
+
+        <section class="visualizer-container glass-panel">
+            <div id="arrayContainer" class="array-container"></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 AlgoVis. Built with ❤️ and Java Spring Boot.</p>
+    </footer>
+
+    <script src="/js/app.js"></script>
+</body>
+</html>
